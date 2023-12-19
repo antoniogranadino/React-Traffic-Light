@@ -1,12 +1,50 @@
-
-/* 
-
-    You can write your own styles here...
+.Container{
+    display: flex;
+    justify-content: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.Lightpost{
+    transform: translateX(55px);
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 80px;
+}
+
+.Light{
+    box-shadow: 0px 0px 10px 12px rgba(231, 232, 229, 0.7);
+}
+
+.Box{
+    transform: translateY(80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 230px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Red{
+    background-color: rgb(195, 13, 13);
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.Yellow{
+    background-color: rgb(238, 235, 55);
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.Green{
+    background-color: rgb(39, 225, 39);
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
